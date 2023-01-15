@@ -154,7 +154,7 @@ useEffect(() =>{
                 </div>
                 <div className="detailItem">
                   <span className="itemKey">Contact No.:</span>
-                  <span className="itemValue">{users.contactNumber}</span>
+                  <span className="itemValue">+63{users.contactNumber}</span>
                 </div>
                 <div className="detailItem">
                   <span className="itemKey">Status:</span>
