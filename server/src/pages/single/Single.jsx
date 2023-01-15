@@ -134,7 +134,7 @@ useEffect(() =>{
             <h1 className="title">Information</h1>
             <div className="item">
               <img
-                src={users.img || avatarImage}
+                src={users.img  ? users.img : avatarImage}
                 alt=""
                 className="itemImg"
               />

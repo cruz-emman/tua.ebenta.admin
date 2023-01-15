@@ -82,7 +82,7 @@ const DatatableUser = ({data, columns, id}) => {
             quickFilterProps: { debounceMs: 500 },
           },
         }}
-        checkboxSelection
+      
       />
       )}
     </div>
